@@ -60,6 +60,9 @@ JOIN trading_volume v
   AND c.stock_symbol = v.stock_symbol
 ORDER BY c.date;
 
+
+
+
 --## Key Insights
 | Insight Category | Details |
 |-----------------|---------|
