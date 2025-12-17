@@ -1,9 +1,17 @@
 # 📊 S&P 500 Stock Analysis Mini Project (2014)
 
-## Overview
-This project analyzes historical S&P 500 stock trends for 2014. Using **SQL for data analysis** and **Tableau for visualization**, it explores patterns in **closing prices** and **trading volumes** across multiple companies.  
+## Summary
+This project explores the historical performance of S&P 500 stocks for the year 2014. Using **SQL for data analysis** and **Tableau for visualization**, it examines trends in **closing prices** and **trading volumes** across multiple companies.  
 
-The goal is to transform raw financial data into actionable insights and create clear, interactive dashboards to visualize market trends.
+The goal is to transform raw financial data into actionable insights, identify patterns in stock behavior, and present findings in a clear, interactive dashboard format. This project demonstrates how structured analysis and visualizations can support financial decision-making.
+
+---
+## Table of Contents
+1. [Summary](#summary)
+2. [Tools Used](#tools-used)
+3. [Dashboard Screenshots](#dashboard-screenshots)
+4. [Representative SQL Analysis](#representative-sql-analysis)
+5. [Key Insights](#key-insights)
 
 ---
 
@@ -51,6 +59,18 @@ JOIN trading_volume v
   ON c.date = v.date
   AND c.stock_symbol = v.stock_symbol
 ORDER BY c.date;
+
+--## Key Insights
+| Insight Category | Details |
+|-----------------|---------|
+| **High-performing stocks** | Identified top stocks with the highest average closing prices in 2014. |
+| **Trading activity trends** | Highlighted the most actively traded stocks, revealing market liquidity. |
+| **Volume vs. price relationship** | Observed correlations between trading volume spikes and price changes, indicating market activity impact. |
+| **Monthly market behavior** | Detected seasonal/monthly trends in stock performance, useful for short-term analysis. |
+| **Volatility indicators** | Noted periods of increased price fluctuation, highlighting risk and stability factors. |
+| **Visualization impact** | Tableau dashboards provide a clear, interactive overview to quickly spot patterns. |
+| **Data-driven decision-making** | Demonstrates how raw financial data can be transformed into actionable insights for strategy and reporting. |
+
 
 
 
