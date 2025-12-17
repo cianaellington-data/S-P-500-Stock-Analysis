@@ -12,6 +12,7 @@ The goal is to transform raw financial data into actionable insights, identify p
 3. [Dashboard Screenshots](#dashboard-screenshots)
 4. [Representative SQL Analysis](#representative-sql-analysis)
 5. [Key Insights](#key-insights)
+
 6.[Folder Structure](#folder-structure) 
 
 ---
