@@ -11,8 +11,6 @@ The goal is to transform raw financial data into actionable insights, identify p
 2. [Tools Used](#tools-used)
 3. [Dashboard Screenshots](#dashboard-screenshots)
 4. [Representative SQL Analysis](#representative-sql-analysis)
-5. [Key Insights](#key-insights)
-6. [Folder Structure](#folder-structure) 
 
 ---
 
@@ -64,36 +62,6 @@ ORDER BY c.date;
 
 
 
---| Insight Category                  | Details                                                                                                     |
-| --------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| **High-performing stocks**        | Identified top stocks with the highest average closing prices in 2014.                                      |
-| **Trading activity trends**       | Highlighted the most actively traded stocks, revealing market liquidity.                                    |
-| **Volume vs. price relationship** | Observed correlations between trading volume spikes and price changes, indicating market activity impact.   |
-| **Monthly market behavior**       | Detected seasonal/monthly trends in stock performance, useful for short-term analysis.                      |
-| **Volatility indicators**         | Noted periods of increased price fluctuation, highlighting risk and stability factors.                      |
-| **Visualization impact**          | Tableau dashboards provide a clear, interactive overview to quickly spot patterns.                          |
-| **Data-driven decision-making**   | Demonstrates how raw financial data can be transformed into actionable insights for strategy and reporting. |
-
-
---S-P-500-Stock-Analysis/
-├── dashboard/
-│   ├── dashboard_overview.png
-│   ├── closing_prices_chart.png
-│   └── trading_volume_chart.png
-├── sql/
-│   └── analysis.sql
-└── README.md
-
-
---Next Steps
-
-Expand the analysis to include multiple years to identify long-term trends.
-
-Perform correlation or volatility analysis between stocks or sectors.
-
-Publish the Tableau dashboard publicly for interactive exploration.
-
-Explore additional visualizations such as moving averages or heatmaps by sector.
 
 
 
