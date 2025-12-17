@@ -17,19 +17,19 @@ The dashboard and charts demonstrate the ability to transform raw financial data
 ## Dashboard Screenshots
 
 ### Dashboard Overview
-![Dashboard Overview](https://raw.githubusercontent.com/cianaellington-data/s-and-p-500-stock-analysis/main/dashboard_overview.png)
+![Dashboard Overview](dashboard/dashboard_overview.png)
 
 ### Closing Prices
-![Closing Prices Chart](https://raw.githubusercontent.com/cianaellington-data/s-and-p-500-stock-analysis/main/Closing_prices_chart.png)
+![Closing Prices Chart](dashboard/Closing_prices_chart.png)
 
 ### Trading Volume
-![Trading Volume Chart](https://raw.githubusercontent.com/cianaellington-data/s-and-p-500-stock-analysis/main/trading_volume_chart.png)
+![Trading Volume Chart](dashboard/trading_volume_chart.png)
 
 ---
 
 ## Representative SQL Analysis
 
-These example SQL queries illustrate the type of analysis performed:
+See the [`analysis.sql`](sql/analysis.sql) file for queries used to generate insights:
 
 ```sql
 -- Average closing price by stock
@@ -38,11 +38,19 @@ FROM closing_prices
 GROUP BY stock_symbol
 ORDER BY avg_price DESC;
 
----- Total trading volume by stock
+-- Total trading volume by stock
 SELECT stock_symbol, SUM(trading_volume) AS total_volume
 FROM trading_volume
 GROUP BY stock_symbol
 ORDER BY total_volume DESC;
+
+-- Daily closing price and volume for each stock
+SELECT c.date, c.stock_symbol, c.closing_price, v.trading_volume
+FROM closing_prices c
+JOIN trading_volume v
+  ON c.date = v.date
+  AND c.stock_symbol = v.stock_symbol
+ORDER BY c.date;
 
 
 
