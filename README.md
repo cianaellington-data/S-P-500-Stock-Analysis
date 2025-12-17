@@ -63,16 +63,16 @@ ORDER BY c.date;
 
 
 
---## Key Insights
-| Insight Category | Details |
-|-----------------|---------|
-| **High-performing stocks** | Identified top stocks with the highest average closing prices in 2014. |
-| **Trading activity trends** | Highlighted the most actively traded stocks, revealing market liquidity. |
-| **Volume vs. price relationship** | Observed correlations between trading volume spikes and price changes, indicating market activity impact. |
-| **Monthly market behavior** | Detected seasonal/monthly trends in stock performance, useful for short-term analysis. |
-| **Volatility indicators** | Noted periods of increased price fluctuation, highlighting risk and stability factors. |
-| **Visualization impact** | Tableau dashboards provide a clear, interactive overview to quickly spot patterns. |
-| **Data-driven decision-making** | Demonstrates how raw financial data can be transformed into actionable insights for strategy and reporting. |
+--| Insight Category                  | Details                                                                                                     |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **High-performing stocks**        | Identified top stocks with the highest average closing prices in 2014.                                      |
+| **Trading activity trends**       | Highlighted the most actively traded stocks, revealing market liquidity.                                    |
+| **Volume vs. price relationship** | Observed correlations between trading volume spikes and price changes, indicating market activity impact.   |
+| **Monthly market behavior**       | Detected seasonal/monthly trends in stock performance, useful for short-term analysis.                      |
+| **Volatility indicators**         | Noted periods of increased price fluctuation, highlighting risk and stability factors.                      |
+| **Visualization impact**          | Tableau dashboards provide a clear, interactive overview to quickly spot patterns.                          |
+| **Data-driven decision-making**   | Demonstrates how raw financial data can be transformed into actionable insights for strategy and reporting. |
+
 
 
 
