@@ -17,13 +17,13 @@ The dashboard and charts demonstrate the ability to transform raw financial data
 ## Dashboard Screenshots
 
 ### Dashboard Overview
-![Dashboard Overview](dashboard/dashboard_overview.png)
+![Dashboard Overview](https://raw.githubusercontent.com/cianaellington-data/s-and-p-500-stock-analysis/main/dashboard_overview.png)
 
 ### Closing Prices
-![Closing Prices Chart](dashboard/Closing_prices_chart.png)
+![Closing Prices Chart](https://raw.githubusercontent.com/cianaellington-data/s-and-p-500-stock-analysis/main/Closing_prices_chart.png)
 
 ### Trading Volume
-![Trading Volume Chart](dashboard/trading_volume_chart.png)
+![Trading Volume Chart](https://raw.githubusercontent.com/cianaellington-data/s-and-p-500-stock-analysis/main/trading_volume_chart.png)
 
 ---
 
@@ -37,5 +37,13 @@ SELECT stock_symbol, AVG(closing_price) AS avg_price
 FROM closing_prices
 GROUP BY stock_symbol
 ORDER BY avg_price DESC;
+
+---- Total trading volume by stock
+SELECT stock_symbol, SUM(trading_volume) AS total_volume
+FROM trading_volume
+GROUP BY stock_symbol
+ORDER BY total_volume DESC;
+
+
 
 
