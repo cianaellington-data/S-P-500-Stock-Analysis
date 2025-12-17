@@ -17,14 +17,16 @@ The dashboard and charts demonstrate the ability to transform raw financial data
 ## Dashboard Screenshots
 
 ### Dashboard Overview
-(dashboard/dashboard_overview.png)
+https://raw.githubusercontent.com/cianaellington-data/s-and-p-500-stock-analysis/main/dashboard_overview.png
+
 
 ### Closing Prices
 (dashboard/Closing_prices_chart.png)
+https://raw.githubusercontent.com/cianaellington-data/s-and-p-500-stock-analysis/main/Closing_prices_chart.png
 
 ### Trading Volume
 (dashboard/trading_volume_chart.png)
-
+https://raw.githubusercontent.com/cianaellington-data/s-and-p-500-stock-analysis/main/trading_volume_chart.png
 ---
 
 ## Representative SQL Analysis
