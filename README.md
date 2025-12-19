@@ -34,7 +34,7 @@ The goal is to transform raw financial data into actionable insights, identify p
 *This chart visualizes the closing prices for individual stocks over time, highlighting trends, peaks, and dips in stock performance throughout the year.*
 ### Trading Volume
 ![Trading Volume Chart](dashboard/trading_volume_chart.png)
-*This chart displays the daily trading volume for each stock, helping to identify periods of high market activity and investor interest*
+This chart displays the daily trading volume for each stock, helping to identify periods of high market activity and investor interest.
 ---
 
 ## Representative SQL Analysis
